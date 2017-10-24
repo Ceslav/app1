@@ -19,9 +19,9 @@
         </li>
     </ul>
     <form ng-submit="todoList.addTodo()">
-        <input type="text" ng-model="todoList.todoText"  size="30"
+        <input type="text" id="todo-input" ng-model="todoList.todoText"  size="30"
                placeholder="add new todo here">
-        <input class="btn-primary" type="submit" value="add">
+        <input class="btn-primary" id="todo-submit" type="submit" value="add">
     </form>
 </div>
 </body>
